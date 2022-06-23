@@ -1,0 +1,81 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url(assets/img/adrian-infernus-GLf7bAwCdYg-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+}
+
+main {
+  width: 375px;
+  min-height: 400px;
+  //   background-color: rgb(255, 255, 255);
+  background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+  padding: 25px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  -webkit-box-shadow: 0px 0px 24px 0px rgba(66, 68, 90, 1);
+  -moz-box-shadow: 0px 0px 24px 0px rgba(66, 68, 90, 1);
+  box-shadow: 0px 0px 24px 0px rgba(66, 68, 90, 1);
+
+  input {
+    border-radius: 10px;
+    padding: 5px;
+    width: 80%;
+    margin-bottom: 30px;
+    border: none;
+  }
+
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  transform: scale(0);
+  transition: 1s all;
+
+  div {
+    border: 1px solid black;
+    width: 150px;
+    height: 120px;
+    margin: 7px;
+    position: relative;
+
+    i {
+      position: absolute;
+      bottom: 10px;
+      right: 10px;
+      font-size: 30px;
+    }
+    p {
+      margin: 10px 0 0 10px;
+    }
+    h2 {
+      margin: 15px 0 0 10px;
+      font-size: 15px;
+    }
+  }
+}
+
+.showItems {
+  transform: scale(1);
+}
+
+p {
+  margin-top: 30px;
+}
